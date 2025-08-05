@@ -1,0 +1,80 @@
+elasticsearch.node.id":"dxxqQ-aXRK2vvaybv4uRUw","elasticsearch.node.name":"4ced56db9ac9","elasticsearch.cluster.name":"docker-cluster"}
+seo_backend        | INFO:     Will watch for changes in these directories: ['/app']
+seo_backend        | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+seo_backend        | INFO:     Started reloader process [1] using WatchFiles
+seo_backend        | INFO:sqlalchemy.engine.Engine:select pg_catalog.version()
+seo_backend        | INFO:sqlalchemy.engine.Engine:[raw sql] {}
+seo_backend        | 2025-08-05 16:34:14,169 INFO sqlalchemy.engine.Engine select pg_catalog.version()
+seo_backend        | 2025-08-05 16:34:14,169 INFO sqlalchemy.engine.Engine [raw sql] {}
+seo_backend        | 2025-08-05 16:34:14,171 INFO sqlalchemy.engine.Engine select current_schema()
+seo_backend        | 2025-08-05 16:34:14,171 INFO sqlalchemy.engine.Engine [raw sql] {}
+seo_backend        | INFO:sqlalchemy.engine.Engine:select current_schema()
+seo_backend        | INFO:sqlalchemy.engine.Engine:[raw sql] {}
+seo_backend        | INFO:sqlalchemy.engine.Engine:show standard_conforming_strings
+seo_backend        | 2025-08-05 16:34:14,172 INFO sqlalchemy.engine.Engine show standard_conforming_strings
+seo_backend        | 2025-08-05 16:34:14,172 INFO sqlalchemy.engine.Engine [raw sql] {}
+seo_backend        | INFO:sqlalchemy.engine.Engine:[raw sql] {}
+seo_backend        | 2025-08-05 16:34:14,172 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+seo_backend        | INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+seo_backend        | 2025-08-05 16:34:14,172 INFO sqlalchemy.engine.Engine COMMIT
+seo_backend        | INFO:sqlalchemy.engine.Engine:COMMIT
+seo_backend        | INFO:main:Database tables created successfully
+seo_backend        | INFO:     Started server process [8]
+seo_backend        | INFO:     Waiting for application startup.
+seo_backend        | INFO:     Application startup complete.
+seo_backend        | INFO:     127.0.0.1:56258 - "GET /health HTTP/1.1" 200 OK
+seo_frontend       |
+seo_frontend       | > seo-analyzer-frontend@0.1.0 start
+seo_frontend       | > react-scripts start
+seo_frontend       |
+seo_frontend       | (node:30) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+seo_frontend       | (Use `node --trace-deprecation ...` to show where the warning was created)
+seo_frontend       | (node:30) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+seo_frontend       | Starting the development server...
+seo_frontend       |
+seo_frontend       | Failed to compile.
+seo_frontend       |
+seo_frontend       | Module not found: Error: Can't resolve './App' in '/app/src'
+seo_frontend       | ERROR in ./src/index.tsx 8:0-24
+seo_frontend       | Module not found: Error: Can't resolve './App' in '/app/src'
+seo_frontend       |
+seo_frontend       | ERROR in ./src/index.tsx 9:0-48
+seo_frontend       | Module not found: Error: Can't resolve './reportWebVitals' in '/app/src'
+seo_frontend       |
+seo_frontend       | webpack compiled with 2 errors
+seo_frontend       | Compiling...
+seo_frontend       | Failed to compile.
+seo_frontend       |
+seo_frontend       | Module not found: Error: Can't resolve './App' in '/app/src'
+seo_frontend       | ERROR in ./src/index.tsx 8:0-24
+seo_frontend       | Module not found: Error: Can't resolve './App' in '/app/src'
+seo_frontend       |
+seo_frontend       | ERROR in ./src/index.tsx 9:0-48
+seo_frontend       | Module not found: Error: Can't resolve './reportWebVitals' in '/app/src'
+seo_frontend       |
+seo_frontend       | webpack compiled with 2 errors
+seo_backend        | INFO:     127.0.0.1:49954 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:39900 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:54848 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:57116 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:39414 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:53038 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:42548 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:41902 - "GET /health HTTP/1.1" 200 OK
+seo_postgres       | 2025-08-05 16:38:42.839 UTC [27] LOG:  checkpoint starting: time
+seo_postgres       | 2025-08-05 16:38:42.854 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.016 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+seo_backend        | INFO:     127.0.0.1:37384 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:36332 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:32774 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     172.18.0.6:49748 - "GET /logo192.png HTTP/1.1" 404 Not Found
+seo_backend        | INFO:     127.0.0.1:46338 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:33604 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:43800 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:39312 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:43556 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:47390 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:41984 - "GET /health HTTP/1.1" 200 OK
+seo_backend        | INFO:     127.0.0.1:34064 - "GET /health HTTP/1.1" 200 OK
+
+
+v View in Docker Desktop   o View Config   w Enable Watch
