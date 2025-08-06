@@ -2,7 +2,8 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from core.config import settings
-from core.database import engine, Base
+from core.database import engine
+from models.database import Base
 import logging
 
 # Configure logging

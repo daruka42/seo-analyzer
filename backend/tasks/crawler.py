@@ -1,5 +1,5 @@
 from celery import current_task
-from core.celery import celery_app
+from .celery_app import celery_app  # Import from tasks module
 from services.crawler import AsyncWebCrawler, CrawlConfig
 from models.database import CrawlSession, Page, SEOIssue
 from core.database import SessionLocal

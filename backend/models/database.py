@@ -1,9 +1,10 @@
 from sqlalchemy import Column, Integer, String, DateTime, Boolean, Text, Float, ForeignKey
+from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
-from core.database import Base
 import uuid
 
+Base = declarative_base()
 
 class Project(Base):
     __tablename__ = "projects"
