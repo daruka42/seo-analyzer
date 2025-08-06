@@ -8,12 +8,13 @@ services:
       POSTGRES_DB: seo_analyzer
       POSTGRES_USER: seouser
       POSTGRES_PASSWORD: seopassword123
-      POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --lc-collate=hu_HU.UTF-8 --lc-ctype=hu_HU.UTF-8"
+      POSTGRES_INITDB_ARGS: "--encoding=UTF-8"
+      # Note: Removed locale args as they may not be available in Alpine
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./database/init.sql:/docker-entrypoint-initdb.d/01-init.sql
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U seouser -d seo_analyzer"]
       interval: 30s
@@ -81,6 +82,7 @@ services:
       - PYTHONPATH=/app
       - LOG_LEVEL=INFO
       - MAX_WORKERS=4
+      - ENVIRONMENT=development
     depends_on:
       postgres:
         condition: service_healthy
@@ -117,6 +119,7 @@ services:
       - ELASTICSEARCH_URL=http://elasticsearch:9200
       - PYTHONPATH=/app
       - C_FORCE_ROOT=1
+      - ENVIRONMENT=development
     depends_on:
       postgres:
         condition: service_healthy
@@ -144,12 +147,13 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     container_name: seo_celery_beat
-    command: celery -A tasks.celery_app beat --loglevel=info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+    command: celery -A tasks.celery_app beat --loglevel=info
     environment:
       - DATABASE_URL=postgresql://seouser:seopassword123@postgres:5432/seo_analyzer
       - REDIS_URL=redis://redis:6379
       - ELASTICSEARCH_URL=http://elasticsearch:9200
       - PYTHONPATH=/app
+      - ENVIRONMENT=development
     depends_on:
       postgres:
         condition: service_healthy
@@ -170,7 +174,9 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=development
+      - REACT_APP_API_URL=http://localhost:8000
+      - REACT_APP_WS_URL=ws://localhost:8000
     depends_on:
       - backend
     restart: unless-stopped
@@ -183,7 +189,7 @@ services:
         reservations:
           memory: 256M
 
-  # Optional: Monitoring with Prometheus and Grafana
+  # Optional: Monitoring with Prometheus
   prometheus:
     image: prom/prometheus:latest
     container_name: seo_prometheus
@@ -202,6 +208,8 @@ services:
     restart: unless-stopped
     networks:
       - seo_network
+    profiles:
+      - monitoring
 
 networks:
   seo_network:
