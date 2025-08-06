@@ -1,80 +1,296 @@
-elasticsearch.node.id":"dxxqQ-aXRK2vvaybv4uRUw","elasticsearch.node.name":"4ced56db9ac9","elasticsearch.cluster.name":"docker-cluster"}
-seo_backend        | INFO:     Will watch for changes in these directories: ['/app']
-seo_backend        | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-seo_backend        | INFO:     Started reloader process [1] using WatchFiles
-seo_backend        | INFO:sqlalchemy.engine.Engine:select pg_catalog.version()
-seo_backend        | INFO:sqlalchemy.engine.Engine:[raw sql] {}
-seo_backend        | 2025-08-05 16:34:14,169 INFO sqlalchemy.engine.Engine select pg_catalog.version()
-seo_backend        | 2025-08-05 16:34:14,169 INFO sqlalchemy.engine.Engine [raw sql] {}
-seo_backend        | 2025-08-05 16:34:14,171 INFO sqlalchemy.engine.Engine select current_schema()
-seo_backend        | 2025-08-05 16:34:14,171 INFO sqlalchemy.engine.Engine [raw sql] {}
-seo_backend        | INFO:sqlalchemy.engine.Engine:select current_schema()
-seo_backend        | INFO:sqlalchemy.engine.Engine:[raw sql] {}
-seo_backend        | INFO:sqlalchemy.engine.Engine:show standard_conforming_strings
-seo_backend        | 2025-08-05 16:34:14,172 INFO sqlalchemy.engine.Engine show standard_conforming_strings
-seo_backend        | 2025-08-05 16:34:14,172 INFO sqlalchemy.engine.Engine [raw sql] {}
-seo_backend        | INFO:sqlalchemy.engine.Engine:[raw sql] {}
-seo_backend        | 2025-08-05 16:34:14,172 INFO sqlalchemy.engine.Engine BEGIN (implicit)
-seo_backend        | INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
-seo_backend        | 2025-08-05 16:34:14,172 INFO sqlalchemy.engine.Engine COMMIT
-seo_backend        | INFO:sqlalchemy.engine.Engine:COMMIT
-seo_backend        | INFO:main:Database tables created successfully
-seo_backend        | INFO:     Started server process [8]
-seo_backend        | INFO:     Waiting for application startup.
-seo_backend        | INFO:     Application startup complete.
-seo_backend        | INFO:     127.0.0.1:56258 - "GET /health HTTP/1.1" 200 OK
-seo_frontend       |
-seo_frontend       | > seo-analyzer-frontend@0.1.0 start
-seo_frontend       | > react-scripts start
-seo_frontend       |
-seo_frontend       | (node:30) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
-seo_frontend       | (Use `node --trace-deprecation ...` to show where the warning was created)
-seo_frontend       | (node:30) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
-seo_frontend       | Starting the development server...
-seo_frontend       |
-seo_frontend       | Failed to compile.
-seo_frontend       |
-seo_frontend       | Module not found: Error: Can't resolve './App' in '/app/src'
-seo_frontend       | ERROR in ./src/index.tsx 8:0-24
-seo_frontend       | Module not found: Error: Can't resolve './App' in '/app/src'
-seo_frontend       |
-seo_frontend       | ERROR in ./src/index.tsx 9:0-48
-seo_frontend       | Module not found: Error: Can't resolve './reportWebVitals' in '/app/src'
-seo_frontend       |
-seo_frontend       | webpack compiled with 2 errors
-seo_frontend       | Compiling...
-seo_frontend       | Failed to compile.
-seo_frontend       |
-seo_frontend       | Module not found: Error: Can't resolve './App' in '/app/src'
-seo_frontend       | ERROR in ./src/index.tsx 8:0-24
-seo_frontend       | Module not found: Error: Can't resolve './App' in '/app/src'
-seo_frontend       |
-seo_frontend       | ERROR in ./src/index.tsx 9:0-48
-seo_frontend       | Module not found: Error: Can't resolve './reportWebVitals' in '/app/src'
-seo_frontend       |
-seo_frontend       | webpack compiled with 2 errors
-seo_backend        | INFO:     127.0.0.1:49954 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:39900 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:54848 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:57116 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:39414 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:53038 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:42548 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:41902 - "GET /health HTTP/1.1" 200 OK
-seo_postgres       | 2025-08-05 16:38:42.839 UTC [27] LOG:  checkpoint starting: time
-seo_postgres       | 2025-08-05 16:38:42.854 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.016 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
-seo_backend        | INFO:     127.0.0.1:37384 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:36332 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:32774 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     172.18.0.6:49748 - "GET /logo192.png HTTP/1.1" 404 Not Found
-seo_backend        | INFO:     127.0.0.1:46338 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:33604 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:43800 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:39312 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:43556 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:47390 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:41984 - "GET /health HTTP/1.1" 200 OK
-seo_backend        | INFO:     127.0.0.1:34064 - "GET /health HTTP/1.1" 200 OK
+C:\Users\sikdo\Documents\seo-analyzer>docker-compose up --build
+time="2025-08-06T17:08:13+02:00" level=warning msg="C:\\Users\\sikdo\\Documents\\seo-analyzer\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 31/31
+ ✔ postgres Pulled                                                                                                                                                                                                                                                                                            6.6s 
+ ✔ redis Pulled                                                                                                                                                                                                                                                                                               2.2s 
+ ✔ elasticsearch Pulled                                                                                                                                                                                                                                                                                      21.5s 
 
 
-v View in Docker Desktop   o View Config   w Enable Watch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[+] Building 5.8s (33/38)
+ => [internal] load local bake definitions                                                                                                                                                                                                                                                                    0.0s
+ => => reading from stdin 1.42kB                                                                                                                                                                                                                                                                              0.0s
+ => [frontend internal] load build definition from Dockerfile                                                                                                                                                                                                                                                 0.0s
+ => => transferring dockerfile: 1.21kB                                                                                                                                                                                                                                                                        0.0s
+ => WARN: FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 1)                                                                                                                                                                                                                                0.0s
+ => [celery-worker internal] load build definition from Dockerfile                                                                                                                                                                                                                                            0.0s
+ => => transferring dockerfile: 1.89kB                                                                                                                                                                                                                                                                        0.0s
+ => [backend internal] load metadata for docker.io/library/python:3.11-slim                                                                                                                                                                                                                                   0.2s
+ => [frontend internal] load metadata for docker.io/library/nginx:alpine                                                                                                                                                                                                                                      0.3s
+ => [frontend internal] load metadata for docker.io/library/node:18-alpine                                                                                                                                                                                                                                    0.3s
+ => [backend internal] load .dockerignore                                                                                                                                                                                                                                                                     0.0s
+ => => transferring context: 2B                                                                                                                                                                                                                                                                               0.0s
+ => [celery-beat  1/13] FROM docker.io/library/python:3.11-slim@sha256:0ce77749ac83174a31d5e107ce0cfa6b28a2fd6b0615e029d9d84b39c48976ee                                                                                                                                                                       0.0s
+ => => resolve docker.io/library/python:3.11-slim@sha256:0ce77749ac83174a31d5e107ce0cfa6b28a2fd6b0615e029d9d84b39c48976ee                                                                                                                                                                                     0.0s
+ => [celery-beat internal] load build context                                                                                                                                                                                                                                                                 0.0s
+ => => transferring context: 1.33kB                                                                                                                                                                                                                                                                           0.0s
+ => CACHED [celery-beat  2/13] WORKDIR /app                                                                                                                                                                                                                                                                   0.0s
+ => CACHED [celery-beat  3/13] RUN groupadd -r seoapp && useradd -r -g seoapp seoapp                                                                                                                                                                                                                          0.0s
+ => CACHED [celery-beat  4/13] RUN apt-get update && apt-get install -y     gcc     g++     curl     wget     gnupg     locales     ca-certificates     && rm -rf /var/lib/apt/lists/*                                                                                                                        0.0s
+ => CACHED [celery-beat  5/13] RUN sed -i '/hu_HU.UTF-8/s/^# //g' /etc/locale.gen &&     locale-gen                                                                                                                                                                                                           0.0s
+ => CACHED [celery-beat  6/13] RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -     && apt-get install -y nodejs     && rm -rf /var/lib/apt/lists/*                                                                                                                                              0.0s
+ => CACHED [celery-beat  7/13] COPY requirements.txt .                                                                                                                                                                                                                                                        0.0s
+ => CACHED [celery-beat  8/13] RUN pip install --no-cache-dir -r requirements.txt                                                                                                                                                                                                                             0.0s
+ => CACHED [celery-beat  9/13] RUN playwright install --with-deps chromium                                                                                                                                                                                                                                    0.0s 
+ => CACHED [celery-beat 10/13] RUN python -m spacy download hu_core_news_sm || echo "Hungarian model not available, using fallback"                                                                                                                                                                           0.0s 
+ => CACHED [celery-beat 11/13] RUN python -m spacy download en_core_web_sm                                                                                                                                                                                                                                    0.0s 
+ => CACHED [celery-beat 12/13] RUN mkdir -p /app/data /app/logs /app/screenshots /app/exports     && chown -R seoapp:seoapp /app                                                                                                                                                                              0.0s 
+ => CACHED [celery-beat 13/13] COPY --chown=seoapp:seoapp . .                                                                                                                                                                                                                                                 0.0s 
+ => CANCELED [celery-worker] exporting to image                                                                                                                                                                                                                                                               5.1s 
+ => => exporting layers                                                                                                                                                                                                                                                                                       0.0s 
+ => => exporting manifest sha256:8606ae4c56ff7e1af23773b89e08cc537c2686973f14b1b5805f3eac89934193                                                                                                                                                                                                             0.0s 
+ => => exporting config sha256:aedf739675c896f3c0e8baeffd4b2fe5732ad2520ea0d0ae5b57067d5ca893ab                                                                                                                                                                                                               0.0s 
+ => => exporting attestation manifest sha256:be7c4aea36ec7432b4cd5bfe19b161518d53de3f1504c792bc9ad62b64a775e9                                                                                                                                                                                                 0.0s 
+ => => exporting manifest list sha256:6e10cb955f7964f8fc67127e348ab2696421e0a20b2a575e4483fbdc879bc022                                                                                                                                                                                                        0.0s 
+ => => naming to docker.io/library/seo-analyzer-celery-worker:latest                                                                                                                                                                                                                                          0.0s 
+ => => unpacking to docker.io/library/seo-analyzer-celery-worker:latest                                                                                                                                                                                                                                       5.0s 
+ => CANCELED [backend] exporting to image                                                                                                                                                                                                                                                                     5.1s 
+ => => exporting layers                                                                                                                                                                                                                                                                                       0.0s 
+ => => exporting manifest sha256:8606ae4c56ff7e1af23773b89e08cc537c2686973f14b1b5805f3eac89934193                                                                                                                                                                                                             0.0s 
+ => => exporting config sha256:aedf739675c896f3c0e8baeffd4b2fe5732ad2520ea0d0ae5b57067d5ca893ab                                                                                                                                                                                                               0.0s 
+ => => exporting attestation manifest sha256:673b3068b1da1ccbe56006cff3a9d884e97e4d329893c612d818b7e7271314f2                                                                                                                                                                                                 0.0s 
+ => => exporting manifest list sha256:fa6dce9f4cae59283b7fe3c3e7c50e302a6c0cb1c890f254b9a87076ab98a5aa                                                                                                                                                                                                        0.0s 
+ => => naming to docker.io/library/seo-analyzer-backend:latest                                                                                                                                                                                                                                                0.0s 
+ => => unpacking to docker.io/library/seo-analyzer-backend:latest                                                                                                                                                                                                                                             5.0s 
+ => CANCELED [celery-beat] exporting to image                                                                                                                                                                                                                                                                 5.1s 
+ => => exporting layers                                                                                                                                                                                                                                                                                       0.0s 
+ => => exporting manifest sha256:8606ae4c56ff7e1af23773b89e08cc537c2686973f14b1b5805f3eac89934193                                                                                                                                                                                                             0.0s 
+ => => exporting config sha256:aedf739675c896f3c0e8baeffd4b2fe5732ad2520ea0d0ae5b57067d5ca893ab                                                                                                                                                                                                               0.0s
+ => => exporting attestation manifest sha256:10def378194d5074e8d72e7fd8343af3fb4759575b264fc00810154ce32ee1b7                                                                                                                                                                                                 0.0s 
+ => => exporting manifest list sha256:2f26fdc7ce7867bc4f12ae194a613b3272a434db8deab1f2c0068481e461bb2e                                                                                                                                                                                                        0.0s 
+ => => naming to docker.io/library/seo-analyzer-celery-beat:latest                                                                                                                                                                                                                                            0.0s 
+ => => unpacking to docker.io/library/seo-analyzer-celery-beat:latest                                                                                                                                                                                                                                         5.0s 
+ => [frontend internal] load .dockerignore                                                                                                                                                                                                                                                                    0.0s 
+ => => transferring context: 2B                                                                                                                                                                                                                                                                               0.0s 
+ => [frontend builder 1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e                                                                                                                                                                      0.0s 
+ => => resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e                                                                                                                                                                                       0.0s 
+ => [frontend internal] load build context                                                                                                                                                                                                                                                                    0.0s 
+ => => transferring context: 1.65kB                                                                                                                                                                                                                                                                           0.0s 
+ => [frontend stage-1 1/6] FROM docker.io/library/nginx:alpine@sha256:d67ea0d64d518b1bb04acde3b00f722ac3e9764b3209a9b0a98924ba35e4b779                                                                                                                                                                        0.0s 
+ => => resolve docker.io/library/nginx:alpine@sha256:d67ea0d64d518b1bb04acde3b00f722ac3e9764b3209a9b0a98924ba35e4b779                                                                                                                                                                                         0.0s 
+ => CACHED [frontend builder 2/6] WORKDIR /app                                                                                                                                                                                                                                                                0.0s 
+ => CACHED [frontend builder 3/6] COPY package.json package-lock.json ./                                                                                                                                                                                                                                      0.0s 
+ => CACHED [frontend stage-1 2/6] RUN apk add --no-cache curl                                                                                                                                                                                                                                                 0.0s 
+ => CACHED [frontend stage-1 3/6] COPY nginx.conf /etc/nginx/conf.d/default.conf                                                                                                                                                                                                                              0.0s 
+ => ERROR [frontend builder 4/6] RUN npm ci --only=production                                                                                                                                                                                                                                                 4.9s 
+------
+ > [frontend builder 4/6] RUN npm ci --only=production:
+0.310 npm warn config only Use `--omit=dev` to omit dev dependencies from the install.
+4.466 npm error code EUSAGE
+4.467 npm error
+4.467 npm error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+4.467 npm error
+4.467 npm error Missing: @hookform/resolvers@3.10.0 from lock file
+4.467 npm error Missing: react-hook-form@7.62.0 from lock file
+4.467 npm error Missing: @mui/x-charts@6.19.8 from lock file
+4.467 npm error Missing: @mui/x-data-grid@6.20.4 from lock file
+4.467 npm error Missing: @types/lodash@4.17.20 from lock file
+4.467 npm error Missing: date-fns@2.30.0 from lock file
+4.467 npm error Missing: framer-motion@10.18.0 from lock file
+4.467 npm error Missing: react-hot-toast@2.5.2 from lock file
+4.467 npm error Missing: react-query@3.39.3 from lock file
+4.467 npm error Missing: yup@1.7.0 from lock file
+4.467 npm error Missing: @react-spring/rafz@9.7.5 from lock file
+4.467 npm error Missing: @react-spring/web@9.7.5 from lock file
+4.467 npm error Missing: reselect@4.1.8 from lock file
+4.467 npm error Missing: @react-spring/animated@9.7.5 from lock file
+4.467 npm error Missing: @react-spring/core@9.7.5 from lock file
+4.467 npm error Missing: @react-spring/shared@9.7.5 from lock file
+4.467 npm error Missing: @react-spring/types@9.7.5 from lock file
+4.467 npm error Missing: @emotion/is-prop-valid@0.8.8 from lock file
+4.467 npm error Missing: goober@2.1.16 from lock file
+4.467 npm error Missing: broadcast-channel@3.7.0 from lock file
+4.467 npm error Missing: match-sorter@6.3.4 from lock file
+4.467 npm error Missing: js-sha3@0.8.0 from lock file
+4.467 npm error Missing: microseconds@0.2.0 from lock file
+4.467 npm error Missing: nano-time@1.0.0 from lock file
+4.467 npm error Missing: oblivious-set@1.0.0 from lock file
+4.467 npm error Missing: unload@2.2.0 from lock file
+4.467 npm error Missing: remove-accents@0.5.0 from lock file
+4.467 npm error Missing: big-integer@1.6.52 from lock file
+4.467 npm error Missing: property-expr@2.0.6 from lock file
+4.467 npm error Missing: tiny-case@1.0.3 from lock file
+4.467 npm error Missing: toposort@2.0.2 from lock file
+4.467 npm error Missing: type-fest@2.19.0 from lock file
+4.467 npm error Missing: @emotion/memoize@0.7.4 from lock file
+4.467 npm error
+4.467 npm error Clean install a project
+4.467 npm error
+4.467 npm error Usage:
+4.467 npm error npm ci
+4.467 npm error
+4.467 npm error Options:
+4.467 npm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+4.467 npm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+4.467 npm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+4.467 npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+4.467 npm error [--no-bin-links] [--no-fund] [--dry-run]
+4.467 npm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+4.467 npm error [-ws|--workspaces] [--include-workspace-root] [--install-links]
+4.467 npm error
+4.467 npm error aliases: clean-install, ic, install-clean, isntall-clean
+4.467 npm error
+4.467 npm error Run "npm help ci" for more info
+4.469 npm notice
+4.469 npm notice New major version of npm available! 10.8.2 -> 11.5.2
+4.469 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.5.2
+4.469 npm notice To update run: npm install -g npm@11.5.2
+4.469 npm notice
+4.470 npm error A complete log of this run can be found in: /root/.npm/_logs/2025-08-06T15_08_36_103Z-debug-0.log
+------
+Dockerfile:9
+
+--------------------
+
+   7 |
+
+   8 |     # Install dependencies
+
+   9 | >>> RUN npm ci --only=production
+
+  10 |
+
+  11 |     # Copy source files
+
+--------------------
+
+target frontend: failed to solve: process "/bin/sh -c npm ci --only=production" did not complete successfully: exit code: 1
+
+126  /usr/local/bin/dockerd --config-file /run/config/docker/daemon.json --containerd /run/containerd/containerd.sock --pidfile /run/desktop/docker.pid --swarm-default-advertise-addr=192.168.65.3 --host-gateway-ip 192.168.65.254
+
+github.com/moby/buildkit/executor/runcexecutor.exitError
+
+        /root/build-deb/engine/vendor/github.com/moby/buildkit/executor/runcexecutor/executor.go:391
+
+github.com/moby/buildkit/executor/runcexecutor.(*runcExecutor).Run
+
+        /root/build-deb/engine/vendor/github.com/moby/buildkit/executor/runcexecutor/executor.go:339
+
+github.com/moby/buildkit/solver/llbsolver/ops.(*ExecOp).Exec
+
+        /root/build-deb/engine/vendor/github.com/moby/buildkit/solver/llbsolver/ops/exec.go:492
+
+github.com/moby/buildkit/solver.(*sharedOp).Exec.func2
+
+        /root/build-deb/engine/vendor/github.com/moby/buildkit/solver/jobs.go:1120
+
+github.com/moby/buildkit/util/flightcontrol.(*call[...]).run
+
+        /root/build-deb/engine/vendor/github.com/moby/buildkit/util/flightcontrol/flightcontrol.go:122
+
+sync.(*Once).doSlow
+
+        /usr/local/go/src/sync/once.go:78
+
+sync.(*Once).Do
+
+        /usr/local/go/src/sync/once.go:69
+
+runtime.goexit
+
+        /usr/local/go/src/runtime/asm_amd64.s:1700
+
+
+
+3596 v0.25.0-desktop.1 C:\Program Files\Docker\cli-plugins\docker-buildx.exe bake --file - --progress rawjson --metadata-file C:\Users\sikdo\AppData\Local\Temp\compose-build-metadataFile-1400478793.json --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\backend --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\backend --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\frontend --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\backend
+
+google.golang.org/grpc.(*ClientConn).Invoke
+
+        google.golang.org/grpc@v1.72.2/call.go:35
+
+github.com/moby/buildkit/api/services/control.(*controlClient).Solve
+
+        github.com/moby/buildkit@v0.23.0/api/services/control/control_grpc.pb.go:88
+
+github.com/moby/buildkit/client.(*Client).solve.func2
+
+        github.com/moby/buildkit@v0.23.0/client/solve.go:268
+
+golang.org/x/sync/errgroup.(*Group).add.func1
+
+        golang.org/x/sync@v0.14.0/errgroup/errgroup.go:130
+
+runtime.goexit
+
+        runtime/asm_amd64.s:1700
+
+
+
+3596 v0.25.0-desktop.1 C:\Program Files\Docker\cli-plugins\docker-buildx.exe bake --file - --progress rawjson --metadata-file C:\Users\sikdo\AppData\Local\Temp\compose-build-metadataFile-1400478793.json --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\backend --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\backend --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\frontend --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\backend
+
+github.com/docker/buildx/build.BuildWithResultHandler.func1.5.2
+
+        github.com/docker/buildx/build/build.go:626
+
+github.com/docker/buildx/build.BuildWithResultHandler.func1.5
+
+        github.com/docker/buildx/build/build.go:632
+
+golang.org/x/sync/errgroup.(*Group).add.func1
+
+        golang.org/x/sync@v0.14.0/errgroup/errgroup.go:130
+
+
+
+126  /usr/local/bin/dockerd --config-file /run/config/docker/daemon.json --containerd /run/containerd/containerd.sock --pidfile /run/desktop/docker.pid --swarm-default-advertise-addr=192.168.65.3 --host-gateway-ip 192.168.65.254
+
+github.com/moby/buildkit/solver.(*edge).execOp
+
+        /root/build-deb/engine/vendor/github.com/moby/buildkit/solver/edge.go:963
+
+github.com/moby/buildkit/solver/internal/pipe.NewWithFunction[...].func2
+
+        /root/build-deb/engine/vendor/github.com/moby/buildkit/solver/internal/pipe/pipe.go:78
+
+runtime.goexit
+
+        /usr/local/go/src/runtime/asm_amd64.s:1700
+
+
+
+3596 v0.25.0-desktop.1 C:\Program Files\Docker\cli-plugins\docker-buildx.exe bake --file - --progress rawjson --metadata-file C:\Users\sikdo\AppData\Local\Temp\compose-build-metadataFile-1400478793.json --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\backend --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\backend --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\frontend --allow fs.read=C:\Users\sikdo\Documents\seo-analyzer\backend
+
+github.com/moby/buildkit/client.(*Client).solve.func2
+
+        github.com/moby/buildkit@v0.23.0/client/solve.go:285
+
+golang.org/x/sync/errgroup.(*Group).add.func1
+
+        golang.org/x/sync@v0.14.0/errgroup/errgroup.go:130
+
+
+
+126  /usr/local/bin/dockerd --config-file /run/config/docker/daemon.json --containerd /run/containerd/containerd.sock --pidfile /run/desktop/docker.pid --swarm-default-advertise-addr=192.168.65.3 --host-gateway-ip 192.168.65.254
+
+github.com/moby/buildkit/solver/llbsolver/ops.(*ExecOp).Exec
+
+        /root/build-deb/engine/vendor/github.com/moby/buildkit/solver/llbsolver/ops/exec.go:513
+
+github.com/moby/buildkit/solver.(*sharedOp).Exec.func2
+
+        /root/build-deb/engine/vendor/github.com/moby/buildkit/solver/jobs.go:1120
+
+
+
+
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/ujztfs9s9gmt866p2usoeoe51
+
+
+C:\Users\sikdo\Documents\seo-analyzer>
+C:\Users\sikdo\Documents\seo-analyzer>
